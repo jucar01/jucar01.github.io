@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #baa086;
+    font-family: verdana, sans-serif;
+    background: url ("mountainsbackground.jpg");
+}
+
+#wrap {
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+img {
+    width: 50%;
+}
+
+Header {
+    padding: 2%;
+    text-align: center;
+    background-color: #677565;
+}
+nav{
+    background-color: ##659c5d;
+    text-align: center;
+    padding: 20px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a{
+    color: rosybrown;
+    font-size: 170%;
+    padding: 0PX 30PX;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:orange;
+    background-color: white;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    padding: 20px 60px 40px;
+}
+
+footer{
+    background-color: #677565;
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
+
+.hands{
+    width:30%;
+    float: right;
+    margin-top: -40px;
+}
+
+
+.button{
+    background-color: darkorange;
+    color: white;
+    text-decoration: none;
+    font-size: 130%;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+a.button: hover {
+background-color: #677565;
+
+}
+
+.one{
+   text-align: center;
+    text-decoration-color: white;
+    background-color: #677565;
+    float: center;
+    border-radius:2px 1px;
+width: 40%;
+}
