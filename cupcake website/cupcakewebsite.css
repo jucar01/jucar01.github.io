@@ -1,0 +1,102 @@
+<head>
+<title>The Helena Cupcake Shop</title>
+<style>
+* {
+  box-sizing: border-box;
+    text-align: center;
+}
+title{
+    text-align: center;
+    
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* Style the header */
+header {
+  background-color: #F1E0B6;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #F4EDCA;
+  padding: 20px;
+    text-align: center;
+    text-decoration-color: "#9f5e33"
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+    text-align: center;
+}
+
+article {
+  float: middle;
+  padding: 20px;
+  width: 70%;
+  background-color: #FFFFF0;
+  height: 300px;
+    text-align: center;/* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+    text-align: center;
+}
+
+/* Style the footer */
+footer {
+  background-color: #FAF8D9;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 3000px) {
+  nav, article {
+    width: 50%;
+    height: auto;
+    text-align: center;
+  }
+}
+buy{
+    Width:70%;
+    height: 70%;
+    text-align: center;
+    
+}
+headp{
+    width: 75%;
+    height: auto;
+}
+h5{width: 33%;
+    height: auto;
+    text-align: center;
+}
+header:active{
+     width: 50%;
+    height: auto;
+    text-align: center;
+}
+    
+}
+
+
+</style>
+</head>
