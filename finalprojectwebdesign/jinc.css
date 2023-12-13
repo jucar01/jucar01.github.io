@@ -1,0 +1,124 @@
+/* Import Google Font */
+    @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap');
+
+    /* Reset and global styles */
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #222222;
+        font-family: 'Kalnia', sans-serif; /* Change font-family */
+        text-align: center; /* Center align content */
+        color: darkgoldenrod; /* Adjusted text color */
+    }
+
+    #wrap {
+        width: 70%;
+        background-color: white;
+        margin: 0 auto;
+        text-align: left; /* Reset text alignment for the container */
+    }
+
+    img {
+        width: 35%;
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Ensure images behave responsively */
+        margin: 0 auto; /* Center images */
+    }
+
+    header {
+        padding: 2%;
+        text-align: center;
+        background-color: #222222;
+        color: white; /* Adjusted text color */
+    }
+
+    nav {
+        background-color: #222242;
+        padding: 20px;
+    }
+
+    nav li {
+        display: inline;
+    }
+
+    nav a {
+        color: darkgoldenrod;
+        font-size: 1.7em; /* Adjusted font size */
+        padding: 20px 30px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    nav a:hover {
+        color: #222232;
+        background-color: whitesmoke;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        vertical-align: bottom;
+    }
+
+    section {
+        padding: 20px 60px 40px;
+        overflow: auto;
+    }
+
+    footer {
+        background-color: #222232;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .pod {
+        width: 30%;
+        float: right;
+        margin-top: -20px;
+    }
+
+    .button {
+        background-color: orangered;
+        color: white;
+        text-decoration: none;
+        font-size: 1.3em; /* Adjusted font size */
+        padding: 20px;
+        display: inline-block;
+        border-radius: 10px;
+    }
+
+    a.button:hover {
+        background-color: #222222;
+    }
+
+.subscribe-form {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .subscribe-input {
+      padding: 10px;
+      margin: 5px;
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .subscribe-button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pinter;
+    }
+iframe {
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+form{
+    display: block;
+        margin: 0 auto;
+        width: 70%;
+}
