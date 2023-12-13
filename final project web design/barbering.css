@@ -1,0 +1,98 @@
+/* Import Google Font */
+    @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap');
+
+    /* Reset and global styles */
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #ccc;
+        font-family: 'Kalnia', sans-serif; /* Change font-family */
+        text-align: center; /* Center align content */
+    }
+
+    /* Define the main color as olive green matte */
+    :root {
+        --main-color: #556B2F; /* Olive green matte */
+    }
+
+    #wrap {
+        width: 70%;
+        background-color: #c6d7b9;
+        margin: 0 auto;
+        text-align: left; /* Reset text alignment for the container */
+    }
+
+    img {
+        width: 50%;
+        display: block; /* Ensure images behave responsively */
+        margin: 0 auto; /* Center images */
+    }
+
+    header {
+        padding: 2%;
+        background-color: var(--main-color);
+        color: white;
+    }
+
+    nav {
+        background-color: #9ACD32;
+        padding: 20px;
+    }
+
+    nav li {
+        display: inline;
+    }
+
+    nav a {
+        color: white;
+        font-size: 1.7em; /* Adjusted font size */
+        padding: 20px 30px;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        color: yellow;
+        background-color: lightgray; /* Updated color value */
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    section {
+        padding: 20px 60px 40px;
+        overflow: auto;
+    }
+
+    footer {
+        background-color: #9ACD32;
+        color: white;
+        padding: 10px;
+    }
+
+    .pod {
+        width: 30%;
+        float: right;
+        margin-top: -20px;
+    }
+
+    .button {
+        background-color: #556B2F;
+        color: white;
+        text-decoration: none;
+        font-size: 1.3em; /* Adjusted font size */
+        padding: 20px;
+        display: inline-block;
+        border-radius: 10px;
+    }
+
+    a.button:hover {
+        background-color: #0b3d91;
+    }
+
+    iframe {
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+    }
